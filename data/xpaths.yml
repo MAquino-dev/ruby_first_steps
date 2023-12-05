@@ -1,0 +1,108 @@
+
+##############    Register Page ##############
+
+first_name: //input[@ng-model='FirstName']
+last_name: //input[@placeholder='Last Name']
+skill: //select[@ng-model="Skill"]
+select_skill: //option[contains(text(),'Ruby')]
+select_android_skill: //option[contains(text(),'Android')]
+phone: //input[@ng-model='Phone']
+email: //input[@type='email']
+male: //input[@value='Male']
+movies: //input[@value='Movies']
+select_country: //span[@aria-labelledby='select2-country-container']
+country_box: //input[@role= 'textbox']
+selected_country: //li[contains(text(),'Japan')]
+japan: //a[contains(text(),'Japanese')]
+year: //select[@placeholder='Year']
+japanese: //input[@class='select2-search__field']
+select_year: //option[contains(text(),'1997')]
+month: //select[@placeholder='Month']
+select_month: //option[contains(text(), 'August')]
+day: //select[@placeholder='Day']
+select_day: //option[text()='27']
+password: //input[@id= 'firstpassword']
+password2: //input[@id= 'secondpassword']
+language: //div[@class='col-md-8 col-xs-8 col-sm-8']
+ruby: //option[contains(text(),'Ruby')]
+
+##############    Alert Page ##############
+
+alert_ok: //a[text()='Alert with OK ']
+alert_ok_and_cancel: //a[contains(text(),'Alert with OK & Cancel ')]
+alert_textbox: //a[contains(text(),'Alert with Textbox ')]
+alert_box: //button[contains(text(),'alert box:')]
+confirm_box: //button[contains(text(),'confirm box')]
+prompt_box: //button[contains(text(),'prompt box')]
+
+##############    Window Page ##############
+
+#switch_to: //a[contains(text(),'SwitchTo')]
+#windows_button: //ul[@class='dropdown-menu']//a[contains(text(),'Windows')]
+tabbed_window: //a[contains(text(),'Tabbed Windows')]
+separate_window: //a[contains(text(),'Seperate Windows')]
+multiple_window: //a[contains(text(),'Multiple Windows')]
+tabbed_window_button:  //div[@id='Tabbed']//button[contains(text(),'click')]
+
+##############    Iframe Page ##############
+
+single_iframe: //a[contains(text(),'Single Iframe')]
+iframe_in_other_iframe: //a[contains(text(),'Iframe with')]
+tab_one_iframe: //iframe[@name='SingleFrame']
+first_textbox: //div/input[@type='text']
+tab_two_iframe1: //iframe[@src='MultipleFrames.html']
+tab_two_iframe2: //iframe[@src='SingleFrame.html']
+second_textbox: //input[@type='text']
+iframe_name: //h5[contains(text(),'iFrame Demo')]
+second_iframe_name1: //h5[contains(text(),'Nested iFrames')]
+
+##############    Slider Page ##############
+
+slider_button: //div[@id='slider']/a
+
+############### Drag and Drop Page #############
+
+logo_one: //img[@src='logo.png']
+drop_area: //div[@id='droparea']
+logo_in_drop_area: //div[@id='droparea']/img[@src='logo.png']
+logo_two: //img[@id='mongo']
+logo_three: //div[@id='dragarea']//img[@src='selenium.png']
+second_logo_in_drop_area: //div[@id='droparea']/img[@id='mongo']
+third_logo_in_drop_area: //div[@id='droparea']/img[@src='selenium.png']
+
+################ modal page ########################
+
+bootstrap_modal: //div[contains(text(),'Bootstrap Modal')]/following-sibling::div/a
+first_modal: //div[@id='myModal']//div[@class='modal-content']
+close_first_modal: (.//div[@class="modal-body"]//button[contains(text(),'Close')])[1]
+multiple_modals: //div[contains(text(),'Multiple Modals')]/following-sibling::div/a
+second_modal: //div[@id='myModalMulti']//div[@class='modal-content']
+launch_modal: //div[@class='modal-body']/a[contains(text(),'Launch modal')]
+third_modal: //div[@id='myModal2']//div[@class='modal-content']
+close_third_modal: //div[@id='myModal2']//a[contains(text(),'Close')]
+close_second_modal: //div[@id='myModalMulti']//a[contains(text(),'Close')]
+
+
+
+#################### datepicker page  #######################
+
+datepicker_one: //input[@id='datepicker1']
+datepicker_two: //input[@id='datepicker2']
+pop_up_datepicker: //div[@class='datepick-popup']
+datepicker_enabled: //label[contains(text(),'DatePicker Enabled')]
+day_two_datepicker: //a[text()='2']
+
+################### download page ########################
+  
+download_button: //div/a[@type='button']
+text_box_txt: //textarea[@id='textbox']
+create_text: //button[@id="createTxt"]
+download_txt: //a[@download="info.txt"]
+text_box_pdf: //textarea[@id='pdfbox']
+create_pdf: //button[@id='createPdf']
+download_pdf: //a[@download='info.pdf']
+
+################### upload page ########################
+
+#browse_button: //div//input[@id='input-4']
+browse_button: //div[@class='btn btn-primary btn-file']

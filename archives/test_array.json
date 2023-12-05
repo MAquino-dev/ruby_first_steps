@@ -1,0 +1,53 @@
+{
+  "empresa": "OpenTech",
+  "ano_fundacao": 2005,
+  "funcionarios": [
+    {
+      "nome": "João",
+      "idade": 35,
+      "cargo": "Gerente",
+      "projetos": [
+        {
+          "nome": "Projeto A",
+          "status": "Concluído"
+        },
+        {
+          "nome": "Projeto B",
+          "status": "Em andamento"
+        }
+      ]
+    },
+    {
+      "nome": "Maria",
+      "idade": 28,
+      "cargo": "Desenvolvedora",
+      "projetos": [
+        {
+          "nome": "Projeto C",
+          "status": "Concluído"
+        },
+        {
+          "nome": "Projeto D",
+          "status": "Pendente"
+        }
+      ]
+    }
+  ],
+  "departamentos": {
+    "desenvolvimento": {
+      "gerente": "Carlos",
+      "equipe": [
+        "Ana",
+        "Pedro",
+        "Lucas"
+      ]
+    },
+    "marketing": {
+      "gerente": "Laura",
+      "equipe": [
+        "Rafaela",
+        "Gustavo"
+      ]
+    }
+  }
+}

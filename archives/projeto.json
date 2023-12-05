@@ -1,0 +1,42 @@
+{
+  "empresa": {
+    "id": "123456789",
+    "nome": "Empresa XYZ",
+    "endereco": {
+      "rua": "Rua da Empresa, 123",
+      "cidade": "Cidade",
+      "estado": "Estado",
+      "pais": "País"
+    },
+    "contato": {
+      "telefone": "123456789",
+      "email": "contato@empresa.com"
+    },
+    "departamentos": {
+      "rh": {
+        "gerente": "João Silva",
+        "funcionarios": [
+          "Maria Souza",
+          "Pedro Santos",
+          "Ana Oliveira"
+        ]
+      },
+      "financeiro": {
+        "gerente": "Carlos Mendes",
+        "funcionarios": [
+          "Luciana Torres",
+          "Rafaela Costa",
+          "Gustavo Almeida"
+        ]
+      },
+      "vendas": {
+        "gerente": "Fernanda Pereira",
+        "funcionarios": [
+          "Marcos Andrade",
+          "Carolina Santos",
+          "Rodrigo Ferreira"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "nome": "Restaurante Magnífico",
+  "localizacao": {
+    "endereco": "Avenida Principal, 456",
+    "cidade": "Cidade Maravilhosa",
+    "estado": "Estado Exemplo",
+    "cep": "12345-678"
+  },
+  "contato": {
+    "telefone": "(00) 9876-5432",
+    "email": "contato@restaurantemagnifico.com"
+  },
+  "cardapio": {
+    "pratos": [
+      {
+        "nome": "Filé Mignon",
+        "descricao": "Filé mignon grelhado com molho especial, acompanhado de batatas fritas e salada.",
+        "preco": 39.9
+      },
+      {
+        "nome": "Risoto de Frutos do Mar",
+        "descricao": "Risoto cremoso com camarão, lula, mexilhões e polvo.",
+        "preco": 42.5
+      },
+      {
+        "nome": "Spaghetti à Bolonhesa",
+        "descricao": "Spaghetti com molho de carne moída e temperos especiais.",
+        "preco": 24.9
+      },
+      {
+        "nome": "Salmão Grelhado",
+        "descricao": "Salmão grelhado com molho de limão e ervas finas, acompanhado de purê de batatas.",
+        "preco": 36.5
+      },
+      {
+        "nome": "Pizza Margherita",
+        "descricao": "Pizza tradicional italiana com molho de tomate, queijo mozzarella e manjericão.",
+        "preco": 29.9
+      },
+      {
+        "nome": "Camarão à Baiana",
+        "descricao": "Camarões refogados com leite de coco, azeite de dendê e especiarias, acompanhados de arroz branco.",
+        "preco": 45.0
+      },
+      {
+        "nome": "Lasanha Vegetariana",
+        "descricao": "Lasanha com camadas de massa fresca intercaladas com legumes e queijo, gratinada no forno.",
+        "preco": 28.9
+      },
+      {
+        "nome": "Frango Xadrez",
+        "descricao": "Cubos de frango salteados com pimentões, cebola, amendoim e molho agridoce, servido com arroz branco.",
+        "preco": 31.5
+      },
+      {
+        "nome": "Ravióli de Queijo",
+        "descricao": "Ravióli recheado com queijo, coberto com molho de tomate e manjericão fresco.",
+        "preco": 26.9
+      },
+      {
+        "nome": "Tiramisu",
+        "descricao": "Sobremesa italiana clássica feita com camadas de biscoitos embebidos em café, creme de mascarpone e cacau em pó.",
+        "preco": 14.5
+      }
+    ],
+    "bebidas": [
+      {
+        "nome": "Caipirinha",
+        "descricao": "Caipirinha tradicional com limão, açúcar e cachaça.",
+        "preco": 15.9
+      },
+      {
+        "nome": "Vinho Tinto",
+        "descricao": "Vinho tinto seco de alta qualidade, ideal para acompanhar carnes.",
+        "preco": 55.0
+      },
+      {
+        "nome": "Cerveja Artesanal",
+        "descricao": "Cerveja produzida localmente, com sabor encorpado e aromas diversos.",
+        "preco": 12.9
+      },
+      {
+        "nome": "Suco Natural",
+        "descricao": "Suco refrescante feito com frutas frescas da estação.",
+        "preco": 8.5
+      },
+      {
+        "nome": "Coquetel de Frutas",
+        "descricao": "Combinação de frutas frescas, sucos e bebidas alcoólicas, servido com gelo.",
+        "preco": 18.0
+      }
+    ],
+    "sobremesas": [
+      {
+        "nome": "Pudim de Leite",
+        "descricao": "Pudim cremoso feito com leite condensado e cobertura de caramelo.",
+        "preco": 10.5
+      },
+      {
+        "nome": "Cheesecake de Morango",
+        "descricao": "Cheesecake com base de biscoito, creme de queijo e calda de morango.",
+        "preco": 12.9
+      },
+      {
+        "nome": "Mousse de Chocolate",
+        "descricao": "Mousse aerado de chocolate belga, servido com raspas de chocolate.",
+        "preco": 9.9
+      },
+      {
+        "nome": "Sorvete de Baunilha",
+        "descricao": "Sorvete cremoso de baunilha, perfeito para refrescar o paladar.",
+        "preco": 7.5
+      },
+      {
+        "nome": "Torta de Limão",
+        "descricao": "Torta doce de limão com massa crocante e recheio suave de creme de limão.",
+        "preco": 11.0
+      }
+    ]
+  },
+  "funcionarios": [
+    {
+      "nome": "João Silva",
+      "funcao": "Chef de Cozinha"
+    },
+    {
+      "nome": "Maria Santos",
+      "funcao": "Garçonete"
+    },
+    {
+      "nome": "Carlos Oliveira",
+      "funcao": "Bartender"
+    },
+    {
+      "nome": "Ana Costa",
+      "funcao": "Auxiliar de Cozinha"
+    },
+    {
+      "nome": "Pedro Almeida",
+      "funcao": "Gerente"
+    },
+    {
+      "nome": "Mariana Lima",
+      "funcao": "Hostess"
+    }
+  ]
+}

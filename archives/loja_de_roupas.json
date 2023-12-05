@@ -1,0 +1,47 @@
+{
+  "nome_loja": "Fashion Store",
+  "endereco": {
+    "rua": "Rua das Flores",
+    "numero": "123",
+    "bairro": "Centro",
+    "cidade": "Cidade Fashion",
+    "estado": "Estado da Moda",
+    "cep": "01234-567"
+  },
+  "departamentos": [
+    {
+      "nome": "Roupas Femininas",
+      "produtos": [
+        {
+          "nome": "Vestido Floral",
+          "preco": 99.99,
+          "codigo": "VF001"
+        },
+        {
+          "nome": "Blusa de seda",
+          "preco": 59.99,
+          "codigo": "BS002"
+        }
+      ]
+    },
+    {
+      "nome": "Roupas Masculinas",
+      "produtos": [
+        {
+          "nome": "Camisa Polo",
+          "preco": 79.99,
+          "codigo": "CP003"
+        },
+        {
+          "nome": "Calça Jeans",
+          "preco": 69.99,
+          "codigo": "CJ004"
+        }
+      ]
+    }
+  ],
+  "contato": {
+    "telefone": "(99) 98765-4321",
+    "email": "contato@fashionstore.com"
+  }
+}

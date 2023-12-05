@@ -1,0 +1,79 @@
+{
+  "empresa": "OpenTech",
+  "funcionarios": [
+    {
+      "nome": "João",
+      "idade": 30,
+      "departamento": {
+        "nome": "Desenvolvimento",
+        "projetos": [
+          {
+            "nome": "Projeto A",
+            "status": "Concluído",
+            "equipe": [
+              {
+                "nome": "Maria",
+                "cargo": "Desenvolvedora"
+              },
+              {
+                "nome": "Pedro",
+                "cargo": "Analista"
+              }
+            ]
+          },
+          {
+            "nome": "Projeto B",
+            "status": "Em andamento",
+            "equipe": [
+              {
+                "nome": "Ana",
+                "cargo": "Desenvolvedora"
+              },
+              {
+                "nome": "Carlos",
+                "cargo": "Gerente"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "nome": "Lucas",
+      "idade": 35,
+      "departamento": {
+        "nome": "Marketing",
+        "projetos": [
+          {
+            "nome": "Projeto C",
+            "status": "Concluído",
+            "equipe": [
+              {
+                "nome": "Lara",
+                "cargo": "Analista"
+              },
+              {
+                "nome": "Mariana",
+                "cargo": "Designer"
+              }
+            ]
+          },
+          {
+            "nome": "Projeto D",
+            "status": "Pendente",
+            "equipe": [
+              {
+                "nome": "Rafael",
+                "cargo": "Desenvolvedor"
+              },
+              {
+                "nome": "Sara",
+                "cargo": "Analista"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

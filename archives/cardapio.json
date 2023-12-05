@@ -1,0 +1,62 @@
+{
+  "nome_restaurante": "Delícias do Sabor",
+  "endereco": {
+    "rua": "Avenida dos Sabores",
+    "numero": "456",
+    "bairro": "Centro",
+    "cidade": "Cidade Gastronômica",
+    "estado": "Estado do Sabor",
+    "cep": "98765-432"
+  },
+  "categorias": [
+    {
+      "nome": "Entradas",
+      "pratos": [
+        {
+          "nome": "Bruschetta",
+          "descricao": "Pão italiano com tomate, manjericão e azeite de oliva",
+          "preco": 12.99
+        },
+        {
+          "nome": "Carpaccio",
+          "descricao": "Finas fatias de carne bovina com molho de mostarda",
+          "preco": 15.99
+        }
+      ]
+    },
+    {
+      "nome": "Pratos Principais",
+      "pratos": [
+        {
+          "nome": "Filet Mignon",
+          "descricao": "Suculento filé mignon grelhado com molho de cogumelos",
+          "preco": 29.99
+        },
+        {
+          "nome": "Salmão Grelhado",
+          "descricao": "Salmão fresco grelhado com molho de limão e ervas",
+          "preco": 26.99
+        }
+      ]
+    },
+    {
+      "nome": "Sobremesas",
+      "pratos": [
+        {
+          "nome": "Mousse de Chocolate",
+          "descricao": "Mousse de chocolate belga com raspas de chocolate",
+          "preco": 8.99
+        },
+        {
+          "nome": "Cheesecake de Morango",
+          "descricao": "Cheesecake cremoso com cobertura de morango",
+          "preco": 9.99
+        }
+      ]
+    }
+  ],
+  "contato": {
+    "telefone": "(99) 12345-6789",
+    "email": "contato@deliciasdosabor.com"
+  }
+}

@@ -1,0 +1,11 @@
+##############    Iframe Page ##############
+
+single_iframe: //a[contains(text(),'Single Iframe')]
+iframe_in_other_iframe: //a[contains(text(),'Iframe with')]
+tab_one_iframe: //iframe[@name='SingleFrame']
+first_textbox: //div/input[@type='text']
+tab_two_iframe1: //iframe[@src='MultipleFrames.html']
+tab_two_iframe2: //iframe[@src='SingleFrame.html']
+second_textbox: //input[@type='text']
+iframe_name: //h5[contains(text(),'iFrame Demo')]
+second_iframe_name1: //h5[contains(text(),'Nested iFrames')]
